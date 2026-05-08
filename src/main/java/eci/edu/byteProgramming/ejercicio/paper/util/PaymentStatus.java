@@ -7,15 +7,14 @@ public enum PaymentStatus {
     COMPLETED("Completado"),
     FAILED("Fallido"),
     CANCELED("Cancelado");
-    
-    private final String name;
 
+    private final String name;
 
     PaymentStatus(String name) {
         this.name = name;
-    } 
-   
-    
-    public String getName() { return name; }
+    }
 
+    public String getName() {
+        return name;
+    }
 }
